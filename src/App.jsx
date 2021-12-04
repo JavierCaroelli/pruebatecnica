@@ -90,6 +90,37 @@ function App() {
             </div>
           </div>
         </div>
+
+        <div className="LastChart">
+          <div className="Period">
+            <h3>Day</h3>
+            <h3>Week</h3>
+            <h3 className="Active">Month</h3>
+            <h3>Year</h3>
+          </div>
+          <div className="Money">
+            <p style={{ fontWeight: "bold" }}>$</p>
+            &nbsp;
+            <h1>13,543</h1>
+          </div>
+          <div className="Graphic">
+            <img src="/Assets/curve.png" alt="curve.png" style={{ width: "100%" }} />
+          </div>
+          <div className="Point"></div>
+          <div className="Line"></div>
+          <div className="Months">
+            <h3>Jun</h3>
+            <h3>Jul</h3>
+            <h3>Aug</h3>
+            <h3>Sep</h3>
+            <h3 className="Active">Oct</h3>
+            <h3>Nov</h3>
+          </div>
+        </div>
+
+        <div className="Finish">
+          <img src="/Assets/indicator.png" alt="indicator.png" />
+        </div>
       </div>
     </div>
   );
