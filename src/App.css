@@ -316,6 +316,13 @@
 }
 
 @media (max-width: 320px) {
+  .Selection > h3 {
+    font-size: 0.66rem;
+  }
+
+  .StaCard {
+    min-height: 5.5rem;
+  }
   .BoxContainer {
     overflow-x: auto;
   }
