@@ -52,7 +52,7 @@ function App() {
             <h3>Statistics</h3>
             <div className="Download">
               <img src="/Assets/download.svg" alt="download_icon.svg" />
-              <img src="/Assets/path.svg" alt="path_icon_svg" className="Path" />
+              <img src="/Assets/Path.svg" alt="path_icon_svg" className="Path" />
             </div>
           </div>
           <div className="StaBoxCntr">
