@@ -56,14 +56,38 @@ function App() {
             </div>
           </div>
           <div className="StaBoxCntr">
-            <table>
-              <tr>
-                <td>1</td> <td>2</td>
-              </tr>
-              <tr>
-                <td>1</td> <td>2</td>
-              </tr>
-            </table>
+            <div className="StaBox" style={{ borderRight: "1px solid #30353d" }}>
+              <div className="StaCard" style={{ borderBottom: " 1px solid #30353d" }}>
+                <img src="/Assets/menu.svg" alt="menu.svg" style={{ width: "20px" }} />
+                <div className="StaText">
+                  <h3>50</h3>
+                  <p>Total Projects</p>
+                </div>
+              </div>
+              <div className="StaCard">
+                <img src="/Assets/flash.svg" alt="flash.svg" />
+                <div className="StaText">
+                  <h3>10</h3>
+                  <p>In Progress</p>
+                </div>
+              </div>
+            </div>
+            <div className="StaBox">
+              <div className="StaCard" style={{ borderBottom: " 1px solid #30353d" }}>
+                <img src="/Assets/checked.svg" alt="checked.svg" />
+                <div className="StaText">
+                  <h3>15</h3>
+                  <p>Completed</p>
+                </div>
+              </div>
+              <div className="StaCard">
+                <img src="/Assets/clock.svg" alt="clock.svg" />
+                <div className="StaText">
+                  <h3>2</h3>
+                  <p>Delayed</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

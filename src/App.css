@@ -39,7 +39,7 @@
 
 .Selection > h3 {
   font-size: 0.75rem;
-  margin-right: 1.375rem;
+  margin-right: 1rem;
 }
 
 .Selection > h3.Active {
@@ -50,7 +50,7 @@
 
 .Upcoming {
   display: flex;
-  font-size: 0.75rem;
+  font-size: 0.85rem;
 }
 
 .Upcoming > .Label {
@@ -123,7 +123,7 @@
 
 .Statistics > .Header {
   display: flex;
-  font-size: 0.75rem;
+  font-size: 0.85rem;
 }
 
 .Header > .Download {
@@ -139,10 +139,41 @@
 }
 
 .Statistics > .StaBoxCntr {
+  margin-top: -0.5rem;
   width: 100%;
   background-color: #10161c;
   border-radius: 5px;
   box-shadow: -1px -1px 3px #30353d;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.StaBox {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.StaCard {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 0.8rem;
+}
+
+.StaText {
+  text-align: left;
+  margin-left: 0.75rem;
+}
+
+.StaText > h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0;
+}
+
+.StaText > p {
+  margin-top: 0;
+  font-size: 0.8rem;
+  color: gray;
 }
